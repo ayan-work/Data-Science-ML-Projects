@@ -23,7 +23,7 @@ I have made two extra feature from the dataset i.e **Text length** and **Punctua
 * **Ham:** These kind of messages have length varying from 30-100 words. 
 
 Text Length Distribution boxplot:
-![alt_text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/Text%20Length%20boxplot.png.png)
+![alt_text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/Text%20Length%20boxplot.png)
 
 _So according to the boxplot distribution:_
 * Ham messages's length have IQR(50% data) in range of 40-90 words. While it have it have 99.3% data in range of 5-175 words
