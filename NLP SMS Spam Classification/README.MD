@@ -11,7 +11,7 @@ The data file contains multiple lines and each line consist of the text message 
 Dataset consist of 5574 messages and 2 Columns
 
 Initial Data:
-![alt text](https://github.com/ayan-gupta/Machine-Learning-Projects/blob/master/NLP%20SMS%20Spam%20Detection/Findings%20Images/Unlabelled%20data%20SMS.PNG)
+![alt text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/Unlabelled%20data%20SMS.PNG)
 
 
 ### Findings
@@ -23,7 +23,7 @@ I have made two extra feature from the dataset i.e **Text length** and **Punctua
 * **Ham:** These kind of messages have length varying from 30-100 words. 
 
 Text Length Distribution boxplot:
-![alt_text](https://github.com/ayan-gupta/Machine-Learning-Projects/blob/master/NLP%20SMS%20Spam%20Detection/Findings%20Images/Text%20Length%20boxplot.png)
+![alt_text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/Text%20Length%20boxplot.png.png)
 
 _So according to the boxplot distribution:_
 * Ham messages's length have IQR(50% data) in range of 40-90 words. While it have it have 99.3% data in range of 5-175 words
@@ -32,7 +32,7 @@ _So according to the boxplot distribution:_
 **Insights with punctuation percentage in text**
 
 Punctuation percentage distribution:
-![alt_text](https://github.com/ayan-gupta/Machine-Learning-Projects/blob/master/NLP%20SMS%20Spam%20Detection/Findings%20Images/Text%20punctuation%20%25%20boxplot.png)
+![alt_text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/Text%20punctuation%20%25%20boxplot.png)
 
 * **Spam:** Punctuation used in spam messages are comparetively less. 99.3% data lies in range of 0-12%. while the median is around 4%. 50% data have 3-5% punctuation
 * **Ham:** Punctuations used in ham messages is large. 99.3% data are in range of 0-16%. while 50% data have 3-8% punctuations. Median is around 5%.
@@ -43,4 +43,4 @@ Punctuation percentage distribution:
 * For model evaluation I have used AUC-ROC Curve, and got AUC-ROC score of 99.3%
 
 AUC-ROC Curve:
-![alt_text](https://github.com/ayan-gupta/Machine-Learning-Projects/blob/master/NLP%20SMS%20Spam%20Detection/Findings%20Images/AUC-ROC%20Curve%20for%20SMS%20spam.png)
+![alt_text](https://github.com/ayan-work/Data-Science-ML-Projects/blob/main/NLP%20SMS%20Spam%20Classification/Findings%20Images/AUC-ROC%20Curve%20for%20SMS%20spam.png)
